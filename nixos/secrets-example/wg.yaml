@@ -1,0 +1,6 @@
+wg-private-key: ""
+wg-peers: |
+  [
+    { publicKey = ""; allowedIPs = [ "10.0.0.2/32" ]; }
+    { publicKey = ""; allowedIPs = [ "10.0.0.3/32" ]; }
+  ]
